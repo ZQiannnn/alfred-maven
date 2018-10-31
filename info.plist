@@ -14,7 +14,66 @@
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>D294974F-697F-48D2-9329-8AD3F36F201E</string>
+				<string>96A611EB-88C6-4EFD-BCC2-CE155C508D1C</string>
+				<key>modifiers</key>
+				<integer>3</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>B1964340-D9D7-4F20-92CC-00FD7F667870</string>
+				<key>modifiers</key>
+				<integer>3</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>96A611EB-88C6-4EFD-BCC2-CE155C508D1C</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>DB75D978-26E1-4E99-B2AB-ED098986D234</string>
+				<key>modifiers</key>
+				<integer>3</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>DB75D978-26E1-4E99-B2AB-ED098986D234</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>5EA81C4E-4331-43CE-BEA7-0F549531B2A3</string>
+				<key>modifiers</key>
+				<integer>3</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>19A04D1B-8B62-4E95-AAA5-BCFA6E80C339</string>
+				<key>modifiers</key>
+				<integer>3</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>B1964340-D9D7-4F20-92CC-00FD7F667870</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>28686B17-85DB-4BD9-8134-A83A09885A42</string>
 				<key>modifiers</key>
 				<integer>3</integer>
 				<key>modifiersubtext</key>
@@ -28,6 +87,101 @@
 	<false/>
 	<key>objects</key>
 	<array>
+		<!-- copy -->
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>inputstring</key>
+				<string>{var:action}</string>
+				<key>matchcasesensitive</key>
+				<false/>
+				<key>matchmode</key>
+				<integer>0</integer>
+				<key>matchstring</key>
+				<string>browser</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.filter</string>
+			<key>uid</key>
+			<string>96A611EB-88C6-4EFD-BCC2-CE155C508D1C</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>autopaste</key>
+				<false/>
+				<key>clipboardtext</key>
+				<string>{query}</string>
+				<key>transient</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.clipboard</string>
+			<key>uid</key>
+			<string>DB75D978-26E1-4E99-B2AB-ED098986D234</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>soundname</key>
+				<string>Hero</string>
+				<key>systemsound</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.playsound</string>
+			<key>uid</key>
+			<string>5EA81C4E-4331-43CE-BEA7-0F549531B2A3</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>lastpathcomponent</key>
+				<false/>
+				<key>onlyshowifquerypopulated</key>
+				<false/>
+				<key>removeextension</key>
+				<false/>
+				<key>text</key>
+				<string>{query}</string>
+				<key>title</key>
+				<string>{var:title}</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.notification</string>
+			<key>uid</key>
+			<string>19A04D1B-8B62-4E95-AAA5-BCFA6E80C339</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+
+
+		<!-- URL -->
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>inputstring</key>
+				<string>{var:action}</string>
+				<key>matchcasesensitive</key>
+				<false/>
+				<key>matchmode</key>
+				<integer>0</integer>
+				<key>matchstring</key>
+				<string>browser</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.filter</string>
+			<key>uid</key>
+			<string>B1964340-D9D7-4F20-92CC-00FD7F667870</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
 		<dict>
 			<key>config</key>
 			<dict>
@@ -43,10 +197,12 @@
 			<key>type</key>
 			<string>alfred.workflow.action.openurl</string>
 			<key>uid</key>
-			<string>D294974F-697F-48D2-9329-8AD3F36F201E</string>
+			<string>28686B17-85DB-4BD9-8134-A83A09885A42</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
+
+		<!--  filter -->
 		<dict>
 			<key>config</key>
 			<dict>
@@ -95,19 +251,54 @@
 	<string></string>
 	<key>uidata</key>
 	<dict>
-		<key>D294974F-697F-48D2-9329-8AD3F36F201E</key>
-		<dict>
-			<key>xpos</key>
-			<integer>500</integer>
-			<key>ypos</key>
-			<integer>60</integer>
-		</dict>
 		<key>9DA84BF4-CB10-4CE2-941A-84D98338C8FE</key>
 		<dict>
 			<key>xpos</key>
-			<integer>150</integer>
+			<integer>50</integer>
 			<key>ypos</key>
-			<integer>180</integer>
+			<integer>200</integer>
+		</dict>
+		<key>96A611EB-88C6-4EFD-BCC2-CE155C508D1C</key>
+		<dict>
+			<key>xpos</key>
+			<integer>300</integer>
+			<key>ypos</key>
+			<integer>50</integer>
+		</dict>
+		<key>DB75D978-26E1-4E99-B2AB-ED098986D234</key>
+		<dict>
+			<key>xpos</key>
+			<integer>330</integer>
+			<key>ypos</key>
+			<integer>50</integer>
+		</dict>
+		<key>5EA81C4E-4331-43CE-BEA7-0F549531B2A3</key>
+		<dict>
+			<key>xpos</key>
+			<integer>360</integer>
+			<key>ypos</key>
+			<integer>50</integer>
+		</dict>
+		<key>19A04D1B-8B62-4E95-AAA5-BCFA6E80C339</key>
+		<dict>
+			<key>xpos</key>
+			<integer>360</integer>
+			<key>ypos</key>
+			<integer>200</integer>
+		</dict>
+		<key>B1964340-D9D7-4F20-92CC-00FD7F667870</key>
+		<dict>
+			<key>xpos</key>
+			<integer>300</integer>
+			<key>ypos</key>
+			<integer>350</integer>
+		</dict>
+		<key>28686B17-85DB-4BD9-8134-A83A09885A42</key>
+		<dict>
+			<key>xpos</key>
+			<integer>330</integer>
+			<key>ypos</key>
+			<integer>350</integer>
 		</dict>
 	</dict>
 </dict>

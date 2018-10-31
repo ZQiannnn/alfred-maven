@@ -57,17 +57,27 @@ alfy.fetch('http://maven.aliyun.com/artifact/aliyunMaven/searchArtifactByGav', {
 			title: m.artifactId,
 			subtitle: m.groupId + ':' + m.artifactId + ':' + m.version,
 			autocomplete: m.artifactId,
-			quicklookurl: url,
 			arg: mvn,
 			mods: {
 				cmd: {
-					arg: mvn,
-					subtitle: `Copied as maven format.`
+					arg: gradle,
+					subtitle: `Copy as gradle format.`,
+					variables: {
+						action: 'copy',
+						title: 'Maven format was copied to your clipboard'
+					}
 				},
 				alt: {
-					arg: gradle,
-					subtitle: `Copied as gradle format.`
+					arg: url,
+					subtitle: `Open in mvnrepository.com .`,
+					variables: {
+						action: 'browser'
+					}
 				}
+			},
+			variables:{
+				action: 'copy',
+				title: 'Maven format was copied to your clipboard'
 			}
 
 		};
