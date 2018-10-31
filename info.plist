@@ -16,11 +16,11 @@
 				<key>destinationuid</key>
 				<string>D294974F-697F-48D2-9329-8AD3F36F201E</string>
 				<key>modifiers</key>
-				<integer>0</integer>
+				<string>ctrl</string>
 				<key>modifiersubtext</key>
 				<string></string>
 				<key>vitoclose</key>
-				<false/>
+				<true/>
 			</dict>
 		</array>
 	</dict>
@@ -75,7 +75,7 @@
 				<key>scriptfile</key>
 				<string>index.js</string>
 				<key>subtext</key>
-				<string>mvn   [groupId](optional)   [artifactId]   [version]</string>
+				<string>mvn  [groupId](optional)  [artifactId]  [version]</string>
 				<key>title</key>
 				<string>Search in Maven Repository</string>
 				<key>type</key>
@@ -98,16 +98,16 @@
 		<key>D294974F-697F-48D2-9329-8AD3F36F201E</key>
 		<dict>
 			<key>xpos</key>
-			<integer>150</integer>
+			<integer>500</integer>
 			<key>ypos</key>
-			<integer>10</integer>
+			<integer>60</integer>
 		</dict>
 		<key>9DA84BF4-CB10-4CE2-941A-84D98338C8FE</key>
 		<dict>
 			<key>xpos</key>
-			<integer>10</integer>
+			<integer>150</integer>
 			<key>ypos</key>
-			<integer>10</integer>
+			<integer>180</integer>
 		</dict>
 	</dict>
 </dict>
