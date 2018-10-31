@@ -254,51 +254,51 @@
 		<key>9DA84BF4-CB10-4CE2-941A-84D98338C8FE</key>
 		<dict>
 			<key>xpos</key>
-			<integer>50</integer>
+			<integer>30</integer>
 			<key>ypos</key>
-			<integer>200</integer>
+			<integer>210</integer>
 		</dict>
 		<key>96A611EB-88C6-4EFD-BCC2-CE155C508D1C</key>
 		<dict>
 			<key>xpos</key>
-			<integer>300</integer>
+			<integer>250</integer>
 			<key>ypos</key>
-			<integer>50</integer>
+			<integer>60</integer>
 		</dict>
 		<key>DB75D978-26E1-4E99-B2AB-ED098986D234</key>
 		<dict>
 			<key>xpos</key>
-			<integer>330</integer>
+			<integer>340</integer>
 			<key>ypos</key>
-			<integer>50</integer>
+			<integer>30</integer>
 		</dict>
 		<key>5EA81C4E-4331-43CE-BEA7-0F549531B2A3</key>
 		<dict>
 			<key>xpos</key>
-			<integer>360</integer>
+			<integer>520</integer>
 			<key>ypos</key>
-			<integer>50</integer>
+			<integer>30</integer>
 		</dict>
 		<key>19A04D1B-8B62-4E95-AAA5-BCFA6E80C339</key>
 		<dict>
 			<key>xpos</key>
-			<integer>360</integer>
+			<integer>520</integer>
 			<key>ypos</key>
-			<integer>200</integer>
+			<integer>150</integer>
 		</dict>
 		<key>B1964340-D9D7-4F20-92CC-00FD7F667870</key>
 		<dict>
 			<key>xpos</key>
-			<integer>300</integer>
+			<integer>250</integer>
 			<key>ypos</key>
-			<integer>350</integer>
+			<integer>420</integer>
 		</dict>
 		<key>28686B17-85DB-4BD9-8134-A83A09885A42</key>
 		<dict>
 			<key>xpos</key>
-			<integer>330</integer>
+			<integer>340</integer>
 			<key>ypos</key>
-			<integer>350</integer>
+			<integer>390</integer>
 		</dict>
 	</dict>
 </dict>
