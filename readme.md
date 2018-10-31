@@ -33,6 +33,12 @@ In Alfred, type `mvn`, <kbd>Enter</kbd>, and your query.
 - press <kbd>⌘</kbd> + <kbd>⏎</kbd> to copy gradle dependency.
 - press <kbd>⌥</kbd> + <kbd>⏎</kbd> to open dependency in browser.
 
+Search Mode:
+- `<artifactId>`
+- `<artifactId> <version>`
+- `<groupId> <artifactId> <version>`
+`Any label can be replaced by '*',such as: * spring 5.0 `
+
 ### Modules
 
 - [alfy](https://github.com/sindresorhus/alfy) made by [Sindre Sorhus](https://sindresorhus.com/) is licensed by [MIT](https://github.com/sindresorhus/alfy/blob/master/license)
