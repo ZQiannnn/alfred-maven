@@ -75,9 +75,9 @@
 				<key>scriptfile</key>
 				<string>index.js</string>
 				<key>subtext</key>
-				<string></string>
+				<string>mvn <groupId>(optional) <artifactId> <version></string>
 				<key>title</key>
-				<string>Search java libraries</string>
+				<string>Search in Maven Repository</string>
 				<key>type</key>
 				<integer>0</integer>
 				<key>withspace</key>
