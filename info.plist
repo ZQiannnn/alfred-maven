@@ -15,8 +15,10 @@
 			<dict>
 				<key>destinationuid</key>
 				<string>D294974F-697F-48D2-9329-8AD3F36F201E</string>
+				<key>modifier</key>
+				<string>cmd</string>
 				<key>modifiers</key>
-				<integer>1</integer>
+				<string>cmd</string>
 				<key>modifiersubtext</key>
 				<string></string>
 				<key>vitoclose</key>
