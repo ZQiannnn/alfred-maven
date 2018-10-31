@@ -39,11 +39,9 @@ if (keywords.length === 1) {
 		}
 	});
 }
-alfy.log('query:\n' + query);
 alfy.fetch('http://maven.aliyun.com/artifact/aliyunMaven/searchArtifactByGav', {
 	query: query
 }).then(data => {
-	alfy.log('data:\n' + data);
 	let result = data.object.filter(m => {
 		// 过滤非jar
 		return m.packaging === 'jar';
@@ -61,28 +59,27 @@ alfy.fetch('http://maven.aliyun.com/artifact/aliyunMaven/searchArtifactByGav', {
 			mods: {
 				cmd: {
 					arg: gradle,
-					subtitle: `Copy as gradle format.`,
+					subtitle: `Copy as gradle format`,
 					variables: {
 						action: 'copy',
-						title: 'Maven format was copied to your clipboard'
+						title: 'Gradle format was copied to your clipboard'
 					}
 				},
 				alt: {
 					arg: url,
-					subtitle: `Open in mvnrepository.com .`,
+					subtitle: `Open in mvnrepository.com`,
 					variables: {
 						action: 'browser'
 					}
 				}
 			},
-			variables:{
+			variables: {
 				action: 'copy',
 				title: 'Maven format was copied to your clipboard'
 			}
 
 		};
 	});
-	alfy.log('result:\n' + result);
 	alfy.output(result);
 });
 

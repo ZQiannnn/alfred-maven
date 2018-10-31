@@ -16,7 +16,7 @@
 				<key>destinationuid</key>
 				<string>96A611EB-88C6-4EFD-BCC2-CE155C508D1C</string>
 				<key>modifiers</key>
-				<integer>3</integer>
+				<integer>0</integer>
 				<key>modifiersubtext</key>
 				<string></string>
 				<key>vitoclose</key>
@@ -26,7 +26,7 @@
 				<key>destinationuid</key>
 				<string>B1964340-D9D7-4F20-92CC-00FD7F667870</string>
 				<key>modifiers</key>
-				<integer>3</integer>
+				<integer>0</integer>
 				<key>modifiersubtext</key>
 				<string></string>
 				<key>vitoclose</key>
@@ -39,7 +39,7 @@
 				<key>destinationuid</key>
 				<string>DB75D978-26E1-4E99-B2AB-ED098986D234</string>
 				<key>modifiers</key>
-				<integer>3</integer>
+				<integer>0</integer>
 				<key>modifiersubtext</key>
 				<string></string>
 				<key>vitoclose</key>
@@ -52,7 +52,7 @@
 				<key>destinationuid</key>
 				<string>5EA81C4E-4331-43CE-BEA7-0F549531B2A3</string>
 				<key>modifiers</key>
-				<integer>3</integer>
+				<integer>0</integer>
 				<key>modifiersubtext</key>
 				<string></string>
 				<key>vitoclose</key>
@@ -62,7 +62,7 @@
 				<key>destinationuid</key>
 				<string>19A04D1B-8B62-4E95-AAA5-BCFA6E80C339</string>
 				<key>modifiers</key>
-				<integer>3</integer>
+				<integer>0</integer>
 				<key>modifiersubtext</key>
 				<string></string>
 				<key>vitoclose</key>
@@ -75,7 +75,7 @@
 				<key>destinationuid</key>
 				<string>28686B17-85DB-4BD9-8134-A83A09885A42</string>
 				<key>modifiers</key>
-				<integer>3</integer>
+				<integer>0</integer>
 				<key>modifiersubtext</key>
 				<string></string>
 				<key>vitoclose</key>
@@ -215,7 +215,7 @@
 				<key>keyword</key>
 				<string>mvn</string>
 				<key>queuedelaycustom</key>
-				<integer>3</integer>
+				<integer>0</integer>
 				<key>queuedelayimmediatelyinitially</key>
 				<true/>
 				<key>queuedelaymode</key>
