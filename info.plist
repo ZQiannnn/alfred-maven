@@ -75,7 +75,7 @@
 				<key>scriptfile</key>
 				<string>index.js</string>
 				<key>subtext</key>
-				<string>mvn [groupId](optional) [artifactId] [version]</string>
+				<string>mvn   [groupId](optional)   [artifactId]   [version]</string>
 				<key>title</key>
 				<string>Search in Maven Repository</string>
 				<key>type</key>

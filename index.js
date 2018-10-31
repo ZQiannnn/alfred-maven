@@ -39,9 +39,11 @@ if (keywords.length === 1) {
 		}
 	});
 }
+alfy.log('query:\n' + query);
 alfy.fetch('http://maven.aliyun.com/artifact/aliyunMaven/searchArtifactByGav', {
 	query: query
 }).then(data => {
+	alfy.log('data:\n' + data);
 	let result = data.object.filter(m => {
 		// 过滤非jar
 		return m.packaging === 'jar';
