@@ -1,6 +1,6 @@
 {
   "name": "alfred-maven",
-  "version": "0.0.11",
+  "version": "0.0.12",
   "description": "Alfred workflow for search java libraries at mvnrepository.com",
   "license": "MIT",
   "repository": "604922962@qq.com/alfred-maven",
