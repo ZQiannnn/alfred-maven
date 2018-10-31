@@ -33,11 +33,11 @@ In Alfred, type `mvn`, <kbd>Enter</kbd>, and your query.
 - press <kbd>⌘</kbd> + <kbd>⏎</kbd> to copy gradle dependency.
 - press <kbd>⌥</kbd> + <kbd>⏎</kbd> to open dependency in browser.
 
-Search Mode:
+Search Mode (Any label can be replaced by '*',such as: * spring 5) :
 - `<artifactId>`
 - `<artifactId> <version>`
 - `<groupId> <artifactId> <version>`
-`Any label can be replaced by '*',such as: * spring 5.0 `
+
 
 ### Modules
 
