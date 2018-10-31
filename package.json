@@ -29,7 +29,6 @@
   ],
   "dependencies": {
     "alfy": "^0.6.0",
-    "string-natural-compare": "^2.0.3"
   },
   "devDependencies": {
     "alfy-test": "^0.3.0",

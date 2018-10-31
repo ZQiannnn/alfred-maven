@@ -5,7 +5,7 @@
 [![npm](https://img.shields.io/npm/dt/alfred-show-network-info.svg?style=flat-square&label=npm%20downloads)](https://www.npmjs.com/package/alfred-maven)
 [![Github](https://img.shields.io/github/downloads/zqiannnn/alfred-maven/total.svg?style=flat-square&label=github%20downloads)](https://github.com/zqiannnn/alfred-maven/releases/latest)
 
-<img src="https://raw.githubusercontent.com/zqiannnn/alfred-maven/master/example.png">
+<img src="https://raw.githubusercontent.com/zqiannnn/alfred-maven/master/example.gif">
 
 ## Install
 Use `npm`
