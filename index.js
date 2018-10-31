@@ -72,38 +72,7 @@ alfy.fetch('http://maven.aliyun.com/artifact/aliyunMaven/searchArtifactByGav', {
 
 		};
 	});
+	alfy.log('result:\n' + result);
 	alfy.output(result);
 });
 
-
-alfy.fetch('http://search.maven.org/solrsearch/select', {
-	query: {
-		q,
-		start: 0,
-		rows: 20
-	}
-}).then(data => {
-	const items = data.response.docs
-		.map(x => {
-			const v = x.v?x.v:x.latestVersion;
-			const mvn = `<dependency>\n  <groupId>${x.g}</groupId>\n  <artifactId>${x.a}</artifactId>\n  <version>${v}</version>\n</dependency>`;
-			const gradle = `compile '${x.g}:${x.a}:${v}'`;
-			return {
-				title: `${x.g}:${x.a}:${v}`,
-				subtitle: `updated at ${dateFormat('yyyy-dd-MM', new Date(x.timestamp))}`,
-				arg: mvn,
-				mods: {
-					cmd: {
-						arg: mvn,
-						subtitle: `copy maven dependency to clipboard`
-					},
-					alt: {
-						arg: gradle,
-						subtitle: `copy gradle dependency to clipboard`
-					}
-				}
-			};
-		});
-
-	alfy.output(items);
-});
