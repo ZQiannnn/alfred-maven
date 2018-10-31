@@ -98,7 +98,7 @@
 				<key>matchmode</key>
 				<integer>0</integer>
 				<key>matchstring</key>
-				<string>browser</string>
+				<string>copy</string>
 			</dict>
 			<key>type</key>
 			<string>alfred.workflow.utility.filter</string>
@@ -149,7 +149,7 @@
 				<key>removeextension</key>
 				<false/>
 				<key>text</key>
-				<string>{var:title}</string>
+				<string>{var:text}</string>
 				<key>title</key>
 				<string>Copied!</string>
 			</dict>

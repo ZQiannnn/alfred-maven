@@ -49,7 +49,7 @@ alfy.fetch('http://maven.aliyun.com/artifact/aliyunMaven/searchArtifactByGav', {
 		// 整理成alfred
 		const mvn = `<dependency>\n  <groupId>${m.groupId}</groupId>\n  <artifactId>${m.artifactId}</artifactId>\n  <version>${m.version}</version>\n</dependency>`;
 		const gradle = `compile '${m.groupId}:${m.artifactId}:${m.version}'`;
-		const url = 'https://mvnrepository.com/artifact/${m.groupId}/${m.artifactId}/${m.version}';
+		const url = `https://mvnrepository.com/artifact/${m.groupId}/${m.artifactId}/${m.version}`;
 
 		return {
 			title: m.artifactId,
