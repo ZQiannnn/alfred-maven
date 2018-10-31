@@ -62,7 +62,7 @@ alfy.fetch('http://maven.aliyun.com/artifact/aliyunMaven/searchArtifactByGav', {
 					subtitle: `Copy as gradle format`,
 					variables: {
 						action: 'copy',
-						title: 'Gradle format was copied to your clipboard'
+						text: 'Gradle format was copied to your clipboard'
 					}
 				},
 				alt: {
@@ -75,7 +75,7 @@ alfy.fetch('http://maven.aliyun.com/artifact/aliyunMaven/searchArtifactByGav', {
 			},
 			variables: {
 				action: 'copy',
-				title: 'Maven format was copied to your clipboard'
+				text: 'Maven format was copied to your clipboard'
 			}
 
 		};
